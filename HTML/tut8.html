@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tut4</title>
+</head>
+<body>
+    <h2>This is form tutorial</h2><br>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <!-- label shows the box it is attacted to when clicked on the label -->
+        <div>
+        <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+       Roll no. : <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+       Email : <input type="email" name="myEmail">
+       <!-- the name attribute is used give the value of myEmail to backend -->
+        </div>
+        <br>
+        <div>
+            Date :  <input type="date" name="myDate" >
+        </div>
+        <br>
+        <div>
+           Number :  <input type="number" name="mycontact">
+        </div>
+        <br>
+        <div>
+            Are you eligibe ? :  <input type="checkbox" name="myeligibility">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Other <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write about Your Self :<br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car : </label>
+                <select name="myCar" id="car">
+                   <option value="ind">Indica</option> 
+                   <option value="swf" selected>Swift</option> 
+                   <option value="bal">Baleno</option> 
+                </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset form">
+        </div>
+    </form>
+</body>
+</html>

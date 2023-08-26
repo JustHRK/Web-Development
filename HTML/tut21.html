@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 900px;
+            border: 5px solid purple;
+            margin: auto;
+
+        }
+
+        .item{
+            border: 2px solid grey;
+            margin: 15px;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+
+        #fruit{
+            float: left;
+            width: 46%;
+        }
+
+        #computer{
+            float: right;
+            width: 46%;
+        }
+
+        #stationary{
+            /* float: left; */
+            /* clear: left; */
+            clear: both;
+            width: 95.5%;
+        }
+
+        p, h3, h1 {
+            text-align: right;
+            text-align: left;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item" >
+            <h3>Fruits</h3>
+            <p id="fruitsara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum tenetur dolor! Blanditiis, vel ipsum labore aperiam ut voluptates corrupti fugit dicta provident qui! Recusandae labore quod consectetur molestiae ratione in atque? Praesentium, inventore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi perferendis nisi incidunt eos? Ea corporis hic voluptate sit modi ratione debitis ex delectus nostrum consectetur. Quas, quibusdam vel! Doloremque nobis illum voluptatem dolorum maxime.</p>
+        </div>
+        <div id="computer" class="item" >
+            <h3>Computer</h3>
+            <p id="fruitsara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum tenetur dolor! Blanditiis, vel ipsum labore aperiam ut voluptates corrupti fugit dicta provident qui! Recusandae labore quod consectetur molestiae ratione in atque? Praesentium, inventore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum cupiditate explicabo perspiciatis placeat excepturi deleniti maxime aperiam modi vero laboriosam ab rerum unde consectetur mollitia error, et quos quidem eligendi. Eligendi dolorem vitae sequi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus sint nesciunt neque quam quas, rem nostrum, quia voluptate veritatis odio assumenda est officiis repudiandae dicta nihil eum quis placeat amet? Id, iste blanditiis! Distinctio quae iste autem magni possimus?</p>
+        </div>
+        <div id="stationary" class="item" >
+            <h3>Stationary</h3>
+            <p id="fruitsara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum tenetur dolor! Blanditiis, vel ipsum labore aperiam ut voluptates corrupti fugit dicta provident qui! Recusandae labore quod consectetur molestiae ratione in atque? Praesentium, inventore!</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Selectors and more Designing</title>
+    <style>
+
+        .container{
+            border: 3px solid red;
+            background-color: aquamarine;
+            padding: 30px;
+            margin: 30px auto;
+            width: 666px;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        /* The properties written after ':' are known as Psuedo Selectors */
+
+        a:hover{
+            color: red;
+            background-color: white;
+            font-weight: bold;
+            border: 2px dotted red;
+        }
+
+        a:visited{
+            background-color: yellow;
+        }
+
+        a:active{
+            background-color: aqua;
+        }
+
+        .btn{
+            background-color: burlywood;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+
+        .btn:hover{
+            color: red;
+            background-color: white;
+            font-weight: bold;
+            border: 2px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, esse laboriosam. Iusto quo delectus quaerat! Saepe distinctio quo corrupti nemo cumque. Rem veniam quam soluta voluptatem ipsa, eligendi ducimus excepturi voluptas ex consectetur reprehenderit?</p>
+        <a href="tut5.html" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>
